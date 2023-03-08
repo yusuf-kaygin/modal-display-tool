@@ -1,0 +1,45 @@
+.custom-modal .modal.in {
+  padding: 0px !important;
+}
+
+.custom-modal .modal-size {
+  width: 50%;
+}
+
+.custom-modal .modal-position {
+  margin-top: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-modal .content {
+  padding: 10px 20px 10px 20px;
+}
+
+.custom-modal .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-close-btn {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.blur-screen {
+  filter: blur(3px);
+  z-index: 98;
+}
+
+.blur-loading-text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 99;
+  font-size: 13px;
+  color: rgb(73, 73, 73);
+  font-weight: 600;
+}
